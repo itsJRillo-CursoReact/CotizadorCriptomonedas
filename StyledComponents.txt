@@ -1,0 +1,32 @@
+En JSX, podemos utilizar HTML con expresiones JavaScript, pero también 
+es posible crear un elemento HTML con la sintaxis de un componente y 
+añadir propiedades CSS
+
+En lugar de utilizar una hoja de estilos o una librería externa, 
+se escribe el código CSS en cada componente (CSS en JS)
+
+Ventajas:
+
+- Al eliminar el componente, también lo harán los estilos
+
+sintaxis:
+
+    const Heading = styled.h1`
+        font-size:2em;
+        text-transfomr: uppercase;`
+    ;
+
+    <Heading>Lorem Ipsum</Heading>
+
+--------------------------------------------------------------
+
+Que es una API?
+
+    API = Application Programming Interface
+
+    Funciones, métodos que ofrece una librería 
+    para ser utilizada por otro software como una capa de abstracción
+
+    Pone a disposición recursos que están alojados en otro servidor o BBDD
+
+    Usualmente es creada en JSON
